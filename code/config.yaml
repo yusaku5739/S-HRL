@@ -1,0 +1,35 @@
+env: 
+  seed: 0
+  grid_size: 32
+  num_players: 1
+  num_animals: 40
+  scale: 40
+  lava_threshold: 0.0
+  land_threshold: 0.1
+  damage_during_hunger_or_thirst: 0.5
+  decrement_of_hunger: 0.5
+  decrement_of_thirst: 0.1
+  recovery_speed: 0.1
+  recovery_threshold: 60
+player: 
+  health: 100
+  hunger: 100
+  thirst: 100
+  drive_weight_health: 100
+  drive_weight_hunger: 50
+  drive_weight_thirst: 50
+  sustain_param_health: 0.9
+  sustain_param_hunger: 0.8
+  sustain_param_thirst: 0.8
+  reward_scaling: 1
+  history_size: 100
+  attack_power: 20
+  view_range: 5
+  view_angle: 90
+animal: 
+  max_level: 5
+  base_health: 50
+  mag_health: 20
+  base_attack_power: 10
+  mag_attack_power: 5
+  base_meat_amount: 1
